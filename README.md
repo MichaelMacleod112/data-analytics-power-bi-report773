@@ -1,21 +1,34 @@
-
 # Data analytics - Power BI Report
 
-Project containing files necessary to produce a comprehensive report in Power BI for AI core course 2023, using dummy order, customer, store and product data. 
+This project contains a complete business intelligence report on dummy sales data dating back to 1st Jan 2010, for a multinational company involved in sales across a variety of categories. The data consists of:
+- orders table: contains order information and forms the centre of the star schema
+- products table: contains product information, linked to orders through product code
+- stores table: contains store information spanning 3 countries, linked to orders via store code
+- customers table: contains information of customers, linked to orders via customer ID
+
+The report contains four main pages, and with suitable licencing could be exported from power BI. Most of the information is illustrative, in depth quantitative analysis is outside the scope of this project.
 
 ## Usage
-As currently planned, the report will be self standing and no external files or scripts will need to be run. Opening the "report.pbix" file in Power BI should be all that is needed to view the contents of this report,  unless it is exported to a more user friendly format at t alata date.
+There are a number of peripheral files contained, but to view the report all that is needed is a free version of power BI installed and to open the main "report.pbix" file. Pay close attention to the data imports.
 
 Checking data files have been successfully imported:
-- Local files: these should be downloaded with the rest of the project as cloned from github, however Power BI may require some paths to be edited to reflect the absolute location of files on your machine. Possibly something to work on.
-- Server credentials should be saved and import successfully, if they dont then god help you
+- Local files: these should be downloaded with the rest of the project as cloned from github, however Power BI may require the absolute file paths used at the import stage to be edited to reflect the save location on your machine.
+- Server credentials should be saved power BI and import successfully, contact me at michaelmacleod13@live.com if this fails 
+
+SQL files - provided you have the correct server credentials, these files are used to query an online database containing a separate copy of the dataset, and generate the corresponding .csv files.
 
 ## File Contents
 
-- report.pbix
+- report.pbix - contains the bulk of the information in this project
  - /data/ - contains local data files which make up part of the data used for analysis. 
- List them here...
+    - /Customers/ - customer data
+    - products_orig.csv - products table as downloaded
+    - products.csv - products table after one-time processing by a short script
+    - stores.csv - stores data
  - product_script.py - very short script to extract and convert numeric values for weight which are initially stored in g, kg and ml. This script does not need to be run.
+ - /sql_queries/ - contains .sql queries used with access to an online copy of the data and the corresponding .csv files exporting their outputs
+ - /sql_col_names/ - contains csv files each containing the names of the columns which may be found in the online copy of the data. Same credentials required as for running SQL queries.
+ - /navigation_bar_images/ - contains .png files used as navigation buttons in the main report
 
 ## Installation
 
