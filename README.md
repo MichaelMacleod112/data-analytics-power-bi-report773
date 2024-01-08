@@ -13,7 +13,7 @@ There are a number of peripheral files contained, but to view the report all tha
 
 Checking data files have been successfully imported:
 - Local files: these should be downloaded with the rest of the project as cloned from github, however Power BI may require the absolute file paths used at the import stage to be edited to reflect the save location on your machine.
-- Server credentials should be saved power BI and import successfully, contact me at michaelmacleod13@live.com if this fails 
+- Server credentials should be saved inside Power BI and import successfully, contact me at michaelmacleod13@live.com if this fails 
 
 SQL files - provided you have the correct server credentials, these files are used to query an online database containing a separate copy of the dataset, and generate the corresponding .csv files.
 
@@ -21,7 +21,7 @@ SQL files - provided you have the correct server credentials, these files are us
 
 - report.pbix - contains the bulk of the information in this project
  - /data/ - contains local data files which make up part of the data used for analysis. 
-    - /Customers/ - customer data
+    - /Customers/ - customer data split by country
     - products_orig.csv - products table as downloaded
     - products.csv - products table after one-time processing by a short script
     - stores.csv - stores data
@@ -29,10 +29,6 @@ SQL files - provided you have the correct server credentials, these files are us
  - /sql_queries/ - contains .sql queries used with access to an online copy of the data and the corresponding .csv files exporting their outputs
  - /sql_col_names/ - contains csv files each containing the names of the columns which may be found in the online copy of the data. Same credentials required as for running SQL queries.
  - /navigation_bar_images/ - contains .png files used as navigation buttons in the main report
-
-## Installation
-
-Add if necessary
     
 ## License
 
