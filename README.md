@@ -151,11 +151,11 @@ Ensure a smooth experience by verifying the successful import of local files and
 
 ## Report Contents
 
-1. **Customer Page**
-   ![Customer Page](/screenshots/customer_page.png)
-
-2. **Executive Summary**
+1. **Executive Summary**
    ![Executive Summary](/screenshots/exec_sum.png)
+
+2. **Customer Page**
+   ![Customer Page](/screenshots/customer_page.png)
 
 3. **Product Page**
    ![Product Page](/screenshots/product_page.png)
