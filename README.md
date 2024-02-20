@@ -115,6 +115,7 @@ For detailed insights and further analysis, additional licensing and exploration
 
 ## File Structure Tree
 
+```
 .
 ├── report.pbix
 ├── data
@@ -126,7 +127,7 @@ For detailed insights and further analysis, additional licensing and exploration
 ├── sql_queries
 ├── sql_col_names
 └── navigation_bar_images
-
+```
 ## Usage
 
 To view the report, you need to have a free version of Power BI installed. Download the main "report.pbix" file from the following link:
@@ -146,21 +147,21 @@ Please pay close attention to the data imports and follow these steps:
 3. **SQL Files:**
    - Provided you have the correct server credentials, these files query an online database with a separate copy of the dataset and generate corresponding .csv files.
 
-Ensure a smooth experience by verifying the successful import of local files and setting up server credentials. For any issues, feel free to contact me at me@live.com.
+Ensure a smooth experience by verifying the successful import of local files and setting up server credentials. For any issues, feel free to contact me at michaelmacleod13@live.com.
 
 ## Report Contents
 
 1. **Customer Page**
-   ![Customer Page](/navigation_bar_images/customer_page.png)
+   ![Customer Page](/screenshots/customer_page.png)
 
 2. **Executive Summary**
-   ![Executive Summary](/navigation_bar_images/exec_sum.png)
+   ![Executive Summary](/screenshots/exec_sum.png)
 
 3. **Product Page**
-   ![Product Page](/navigation_bar_images/product_page.png)
+   ![Product Page](/screenshots/product_page.png)
 
 4. **Store Map**
-   ![Store Map](/navigation_bar_images/store_map.png)
+   ![Store Map](/screenshots/store_map.png)
 
 
 ## License
