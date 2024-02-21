@@ -161,7 +161,7 @@ Ensure a smooth experience by verifying the successful import of local files and
    ![Store Map](/screenshots/store_map.png)
 
 
-# License
+## License
 
 [MIT](https://choosealicense.com/licenses/mit/)
 
