@@ -3,21 +3,21 @@
 ### Contents
 
 
-- [Introduction](#introduction)
-- [Project Brief](#project-brief-business-intelligence-enhancement-with-power-bi)
-- [Business Intelligence Report](#business-intelligence-report-dummy-sales-data)
-  - [Report Structure](#report-structure)
-- [File Contents](#file-contents)
-  - [File Structure Tree](#file-structure-tree)
-- [Usage](#usage)
-- [Report Contents](#report-contents)
-- [License](#license)
+- [Introduction](##introduction)
+- [Project Brief](##project-brief-business-intelligence-enhancement-with-power-bi)
+- [Business Intelligence Report](##business-intelligence-report-dummy-sales-data)
+- [Report Structure](##report-structure)
+- [File Contents](##file-contents)
+- [File Structure Tree](##file-structure-tree)
+- [Usage](##usage)
+- [Report Contents](##report-contents)
+- [License](##license)
 
-# Data Analytics - Power BI Report
+## Data Analytics - Power BI Report
 
 Welcome to my Data Analytics Power BI project, a comprehensive business intelligence report created using Microsoft Power BI. This project focuses on enhancing business intelligence practices for a multinational company engaged in sales across diverse categories. By transforming historical sales data into actionable insights, the report aims to facilitate informed decision-making for C-suite executives.
 
-## Project Highlights
+### Project Highlights
 
 - **Objective:** Transforming sales data into actionable insights using Power BI.
 - **Key Deliverables:** A comprehensive quarterly report with a focus on high-level business summaries, customer insights, product performance analysis, and geographical performance mapping.
@@ -26,7 +26,7 @@ Welcome to my Data Analytics Power BI project, a comprehensive business intellig
 
 Explore the detailed report structure, file contents, and usage instructions to harness the full potential of this business intelligence tool.
 
-# Project Brief: Business Intelligence Enhancement with Power BI
+## Project Brief: Business Intelligence Enhancement with Power BI
 
 **Objective:**
 Transform sales data into actionable insights for informed decision-making using Microsoft Power BI.
@@ -42,10 +42,7 @@ Transform sales data into actionable insights for informed decision-making using
   - Geographical performance map.
 
 **Approach:**
-Utilized Power BI for data extraction, transformation, and report generation. Implemented a user-friendly star schema.
-
-**Timeline:**
-Completed within [specified timeframe] to align with the client's business cycle.
+Utilized Power BI for data extraction, transformation, and report generation. Implemented a user-friendly star schema. Additional use of SQL for data querying and short python script for transformation of some data.
 
 **Success Metrics:**
 - Positive feedback from C-suite executives.
@@ -63,7 +60,7 @@ Completed within [specified timeframe] to align with the client's business cycle
 This project has successfully elevated the client's business intelligence practices, providing a foundation for informed decision-making and improved overall performance.
 
 
-# Business Intelligence Report: Dummy Sales Data
+## Business Intelligence Report: Dummy Sales Data
 
 This repository comprises a comprehensive business intelligence report based on dummy sales data dating back to January 1, 2010. The data represents a multinational company engaged in sales across various categories. The dataset includes the following tables:
 
